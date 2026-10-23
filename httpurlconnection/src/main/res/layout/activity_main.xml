@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мой внешний IP и погода"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonGetInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Получить данные" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Сетевая информация"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView android:id="@+id/textViewIp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewCity"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewRegion"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewCountry"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewOrg"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewTimezone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewLoc"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Погода"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView android:id="@+id/textViewTemp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewWind"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewWeatherDesc"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/textViewWeatherTime"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
